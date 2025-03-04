@@ -17,9 +17,9 @@ const getDate = (date: string) => {
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div class="group flex flex-col gap-2" v-for="post in data.stories">
-                <div class="rounded-lg overflow-hidden">
+                <div class="flex-grow rounded-lg overflow-hidden">
                     <img :src="post.content.content[3].source.filename" :alt="post.content.content[3].source.alt"
-                    class="rounded-lg transition-transform group-hover:scale-110">
+                    class="rounded-lg w-full h-full object-cover transition-transform group-hover:scale-110">
                 </div>
                 <div class="flex flex-col">
                     <NuxtLink :to="`/${post.full_slug}`" class="text-lg font-semibold line-clamp-1 
