@@ -10,13 +10,13 @@
         "postinstall": "nuxt prepare"
     },
     "dependencies": {
-        "nuxt": "^3.15.4"
+        "nuxt": "^3.16.0"
     },
     "devDependencies": {
         "@iconify-json/heroicons": "^1.2.2",
-        "@iconify-json/simple-icons": "^1.2.27",
-        "@nuxt/ui": "3.0.0-alpha.13",
-        "@storyblok/nuxt": "^6.2.2"
+        "@iconify-json/simple-icons": "^1.2.28",
+        "@nuxt/ui": "3.0.0",
+        "@storyblok/nuxt": "^6.2.3"
     },
     "overrides": {
         "tailwindcss": "4.0.7",
